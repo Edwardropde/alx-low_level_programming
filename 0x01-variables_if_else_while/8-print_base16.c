@@ -1,19 +1,18 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
 /**
- * main - Point of entry
+ * main - Print all # of base 16
  *
- * Return: 0 if successeful
+ * Return: 0 if successful
  */
+
 int main(void)
 {
-	char low;
+	int a;
 
-	for (d = '0'; d <= '9'; d++)
+	for (a = 48; a < 58; a++)
 	{
-	putchar(low);
+		putchar(a);
 	}
 	putchar('\n');
 	return (0);
-}	
+}
