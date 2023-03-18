@@ -11,7 +11,7 @@ int main(void)
 
 	for (a = 48; a < 58; a++)
 	{
-		putchar(a);
+		putchar(a + '0');
 	}
 	if (a != 57)
 	{
