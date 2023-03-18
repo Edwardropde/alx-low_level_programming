@@ -1,29 +1,21 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 /**
  * main - Point of entry
  *
  * Return: 0 if successeful
  */
-
 int main(void)
 {
-	char c;
-
 	int d;
+	char low;
 
-	c = 'a';
-	d = 0;
-	while
-		(d < 10) {
-			putchar(d + 'a');
-			d++;
-		}
-	while
-		(c <= 'f') {
-			putchar(c);
-			c++;
-		}
-	putchar('\n');
+	for (d = '0'; d <= '9'; d++)
+		putchar(d);
+	for (low = 'a'; low <= 'f'; low++)
+		putchar(low);
+		putchar('\n');
 	return (0);
 }
 	
