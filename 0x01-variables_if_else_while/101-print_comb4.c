@@ -11,30 +11,28 @@ int main(void)
 
 	for (i = 48; i < 58; i++)
 	{
-		for (j = 49; j < 58; j++)
+	for (j = 49; j < 58; j++)
+	{
+	for (k = 50; k < 57; k++)
+	{
+		if (i != j && i != k && j != k)
 		{
-			for (k = 50; k < 57; k++)
-			{
-				if (i != j && i != k && j != k)
-				{
-					if (k > j && j > i)
-					{
-						putchar(i);
-						putchar(j);
-						putchar(k);
+		if (k > j && j > i)
+		{
+			putchar(i);
+			putchar(j);
+			putchar(k);
 
-						if (i != 55 || j != 56 || k != 57)
-						{
-							putchar(',');
-							putchar(' ');
-						}
-					}
-				}
-			}
+		if (i != 55 || j != 56 || k != 57)
+		{
+			putchar(',');
+			putchar(' ');
+		}
+		}
+		}
+		}
 		}
 	}
 	putchar('\n');
 	return (0);
 }
-
-						
