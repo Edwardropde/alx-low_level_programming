@@ -17,5 +17,5 @@ mov rax,0
 ret
 
 section .data
-msg: do "Hello, Holberton", 0
-fmt: do "%s", 10, 0
+msg: db "Hello, Holberton", 0
+fmt: db "%s", 10, 0
