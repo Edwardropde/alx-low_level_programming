@@ -7,8 +7,8 @@
 #include "main.h"
 /**
  * create_file - Create a file
- * @filename: Pointer to name of file to create
- * @text_content: Pointerto string to be included in file
+ * @filename: Pointer to name of file to be created
+ * @text_content: Pointer to string to be included in file
  * Return: -1 if function fails and 1 if otherwise
  */
 

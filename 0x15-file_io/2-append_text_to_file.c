@@ -7,7 +7,7 @@
 /**
  * append_text_to_file - Append text at end of file
  * @filename: Pointer to name of file
- * @text_content: String to add at end of file
+ * @text_content: String to include at end of file
  * Return: -1 if filename is NULL or function fails
  * 1 for otherwise
  */
