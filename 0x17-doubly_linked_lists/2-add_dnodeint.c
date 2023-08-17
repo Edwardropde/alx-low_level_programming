@@ -16,16 +16,16 @@ dlistint_t *add_dnodeint(dlistint_t **head, const int n)
 	if (address == NULL)
 		return (NULL);
 	address->n = n;
-	address->previous = NULL;
+	address->prev = NULL;
 	h = *head;
 	if (h != NULL)
 	{
-		while (h->previous != NULL)
-			h = h->previous;
+		while (h->prev != NULL)
+			h = h->prev;
 	}
 	address->next = h;
 	if (h != NULL)
-		h->previous = address;
+		h->prev = address;
 	*head = address;
 	return (address);
 }
