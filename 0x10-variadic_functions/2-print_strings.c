@@ -20,10 +20,18 @@ void print_strings(const char *separator, const unsigned int n, ...)
 	for (i = 0; i < n; i++)
 	{
 		str = va_arg(valist, char *);
+<<<<<<< HEAD
+=======
+
+>>>>>>> 8a116eaf6c7ffa1bc4d5a55841296e2d605de468
 		if (str)
 			printf("%s", str);
 		else
 			printf("(nil)");
+<<<<<<< HEAD
+=======
+
+>>>>>>> 8a116eaf6c7ffa1bc4d5a55841296e2d605de468
 		if (i < n - 1)
 			if (separator)
 				printf("%s", separator);
@@ -31,4 +39,7 @@ void print_strings(const char *separator, const unsigned int n, ...)
 	printf("\n");
 	va_end(valist);
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 8a116eaf6c7ffa1bc4d5a55841296e2d605de468

@@ -1,5 +1,10 @@
+<<<<<<< HEAD
 #include "main.h"
 #include <stdio.h>
+=======
+#include <stdio.h>
+#include "main.h"
+>>>>>>> 8a116eaf6c7ffa1bc4d5a55841296e2d605de468
 /**
  * main - prints all arguments it receives
  * @argc: number of arguments

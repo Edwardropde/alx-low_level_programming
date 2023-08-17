@@ -15,5 +15,9 @@ int _strlen(char *s)
 		longi++;
 		s++;
 	}
+<<<<<<< HEAD
+=======
+
+>>>>>>> 8a116eaf6c7ffa1bc4d5a55841296e2d605de468
 	return (longi);
 }

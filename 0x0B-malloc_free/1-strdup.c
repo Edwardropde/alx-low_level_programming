@@ -18,10 +18,22 @@ char *_strdup(char *str)
 	i = 0;
 	while (str[i] != '\0')
 		i++;
+<<<<<<< HEAD
 	aaa = malloc(sizeof(char) * (i + 1));
 	if (aaa == NULL)
 		return (NULL);
 	for (r = 0; str[r]; r++)
 		aaa[r] = str[r];
+=======
+
+	aaa = malloc(sizeof(char) * (i + 1));
+
+	if (aaa == NULL)
+		return (NULL);
+
+	for (r = 0; str[r]; r++)
+		aaa[r] = str[r];
+
+>>>>>>> 8a116eaf6c7ffa1bc4d5a55841296e2d605de468
 	return (aaa);
 }

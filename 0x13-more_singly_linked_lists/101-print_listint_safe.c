@@ -20,6 +20,10 @@ size_t looped_listint_len(const listint_t *head)
 	{
 		tortoise = tortoise->next;
 		hare = hare->next->next;
+<<<<<<< HEAD
+=======
+
+>>>>>>> 8a116eaf6c7ffa1bc4d5a55841296e2d605de468
 		if (tortoise == hare)
 		{
 			nodes++;
@@ -32,6 +36,10 @@ size_t looped_listint_len(const listint_t *head)
 			break;
 		}
 	}
+<<<<<<< HEAD
+=======
+
+>>>>>>> 8a116eaf6c7ffa1bc4d5a55841296e2d605de468
 	return (nodes);
 }
 
@@ -52,6 +60,10 @@ size_t print_listint_safe(const listint_t *head)
 
 	for (i = 0; i < nodes; i++)
 	{
+<<<<<<< HEAD
+=======
+
+>>>>>>> 8a116eaf6c7ffa1bc4d5a55841296e2d605de468
 		printf("[%p] %d\n", (void *)temp, temp->n);
 		temp = temp->next;
 		if (i == nodes - 1)
@@ -61,6 +73,10 @@ size_t print_listint_safe(const listint_t *head)
 			break;
 		}
 	}
+<<<<<<< HEAD
+=======
+
+>>>>>>> 8a116eaf6c7ffa1bc4d5a55841296e2d605de468
 	if (temp != NULL)
 	{
 		for (; temp != NULL; temp = temp->next)
@@ -73,5 +89,9 @@ size_t print_listint_safe(const listint_t *head)
 			}
 		}
 	}
+<<<<<<< HEAD
+=======
+
+>>>>>>> 8a116eaf6c7ffa1bc4d5a55841296e2d605de468
 	return (nodes);
 }

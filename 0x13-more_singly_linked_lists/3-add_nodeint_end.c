@@ -18,12 +18,25 @@ listint_t *add_nodeint_end(listint_t **head, const int n)
 	{
 		return (NULL);
 	}
+<<<<<<< HEAD
 	new->next = NULL;
 	new->n = n;
+=======
+
+	new->next = NULL;
+	new->n = n;
+
+>>>>>>> 8a116eaf6c7ffa1bc4d5a55841296e2d605de468
 	for (; *head != NULL; head = &((*head)->next))
 	{
 
 	}
+<<<<<<< HEAD
 	*head = new;
+=======
+
+	*head = new;
+
+>>>>>>> 8a116eaf6c7ffa1bc4d5a55841296e2d605de468
 	return (new);
 }

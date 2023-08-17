@@ -14,6 +14,10 @@ void simple_print_buffer(char *buffer, unsigned int size)
 	unsigned int i;
 
 	i = 0;
+<<<<<<< HEAD
+=======
+
+>>>>>>> 8a116eaf6c7ffa1bc4d5a55841296e2d605de468
 	while (i < size)
 	{
 		if (i % 10)
@@ -29,7 +33,10 @@ void simple_print_buffer(char *buffer, unsigned int size)
 	}
 	printf("\n");
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 8a116eaf6c7ffa1bc4d5a55841296e2d605de468
 /**
  * main - check the code for ALX School students.
  *

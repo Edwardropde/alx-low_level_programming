@@ -15,14 +15,28 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 
 	if (nmemb == 0 || size == 0)
 		return (NULL);
+<<<<<<< HEAD
 	l = nmemb * size;
 	p = malloc(l);
 	if (p == NULL)
 		return (NULL);
+=======
+
+	l = nmemb * size;
+	p = malloc(l);
+
+	if (p == NULL)
+		return (NULL);
+
+>>>>>>> 8a116eaf6c7ffa1bc4d5a55841296e2d605de468
 	while (i < l)
 	{
 		p[i] = 0;
 		i++;
 	}
+<<<<<<< HEAD
+=======
+
+>>>>>>> 8a116eaf6c7ffa1bc4d5a55841296e2d605de468
 	return (p);
 }

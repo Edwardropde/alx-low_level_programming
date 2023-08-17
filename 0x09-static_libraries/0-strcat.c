@@ -24,6 +24,10 @@ char *_strcat(char *dest, char *src)
 		i++;
 		j++;
 	}
+<<<<<<< HEAD
+=======
+
+>>>>>>> 8a116eaf6c7ffa1bc4d5a55841296e2d605de468
 	dest[i] = '\0';
 	return (dest);
 }

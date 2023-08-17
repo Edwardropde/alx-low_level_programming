@@ -1,7 +1,14 @@
+<<<<<<< HEAD
 #include "lists.h"
 #include <string.h>
 #include <stdlib.h>
 #include <stdio.h>
+=======
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include "lists.h"
+>>>>>>> 8a116eaf6c7ffa1bc4d5a55841296e2d605de468
 /**
  * main - check the code
  *
@@ -29,11 +36,19 @@ int main(void)
 	head = new;
 	n = print_list(head);
 	printf("-> %lu elements\n", n);
+<<<<<<< HEAD
+=======
+
+>>>>>>> 8a116eaf6c7ffa1bc4d5a55841296e2d605de468
 	printf("\n");
 	free(new->str);
 	new->str = NULL;
 	n = print_list(head);
 	printf("-> %lu elements\n", n);
+<<<<<<< HEAD
+=======
+
+>>>>>>> 8a116eaf6c7ffa1bc4d5a55841296e2d605de468
 	free(new);
 	return (0);
 }

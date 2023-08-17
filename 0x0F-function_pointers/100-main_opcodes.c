@@ -19,21 +19,44 @@ int main(int argc, char *argv[])
 		printf("Error\n");
 		exit(1);
 	}
+<<<<<<< HEAD
 	bytes = atoi(argv[1]);
+=======
+
+	bytes = atoi(argv[1]);
+
+>>>>>>> 8a116eaf6c7ffa1bc4d5a55841296e2d605de468
 	if (bytes < 0)
 	{
 		printf("Error\n");
 		exit(2);
 	}
+<<<<<<< HEAD
+=======
+
+>>>>>>> 8a116eaf6c7ffa1bc4d5a55841296e2d605de468
 	for (index = 0; index < bytes; index++)
 	{
 		opcode = *(unsigned char *)address;
 		printf("%.2x", opcode);
+<<<<<<< HEAD
 		if (index == bytes - 1)
 			continue;
 		printf(" ");
 		address++;
 	}
 	printf("\n");
+=======
+
+		if (index == bytes - 1)
+			continue;
+		printf(" ");
+
+		address++;
+	}
+
+	printf("\n");
+
+>>>>>>> 8a116eaf6c7ffa1bc4d5a55841296e2d605de468
 	return (0);
 }

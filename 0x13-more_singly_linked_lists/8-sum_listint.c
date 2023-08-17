@@ -17,5 +17,9 @@ int sum_listint(listint_t *head)
 	{
 		sum = sum + head->n;
 	}
+<<<<<<< HEAD
+=======
+
+>>>>>>> 8a116eaf6c7ffa1bc4d5a55841296e2d605de468
 	return (sum);
 }

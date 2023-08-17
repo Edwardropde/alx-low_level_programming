@@ -8,11 +8,18 @@
  * @str: string - (malloc'ed string)
  * @len: length of the string
  * @next: points to the next node
+<<<<<<< HEAD
+=======
+ *
+>>>>>>> 8a116eaf6c7ffa1bc4d5a55841296e2d605de468
  * Description: singly linked list node structure
  */
 
 typedef struct list_s
+<<<<<<< HEAD
 
+=======
+>>>>>>> 8a116eaf6c7ffa1bc4d5a55841296e2d605de468
 {
 
 	char *str;

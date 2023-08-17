@@ -1,5 +1,6 @@
 #!/bin/bash
 0x0D. C - Preprocessor
+<<<<<<< HEAD
 C
  By: Julien Barbier & Johan Euphrosine, Software Engineer at Google
  Weight: 1
@@ -198,3 +199,5 @@ GitHub repository: alx-low_level_programming
 Directory: 0x0D-preprocessor
 File: 4-sum.h
   
+=======
+>>>>>>> 8a116eaf6c7ffa1bc4d5a55841296e2d605de468

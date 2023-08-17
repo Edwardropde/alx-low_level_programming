@@ -16,9 +16,18 @@ void print_grid(int **grid, int width, int height)
 	int h;
 
 	h = 0;
+<<<<<<< HEAD
 	while (h < height)
 	{
 		w = 0;
+=======
+
+	while (h < height)
+	{
+
+		w = 0;
+
+>>>>>>> 8a116eaf6c7ffa1bc4d5a55841296e2d605de468
 		while (w < width)
 		{
 			printf("%d ", grid[h][w]);

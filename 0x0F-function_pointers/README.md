@@ -1,5 +1,6 @@
 #!/bin/bash
 0x0F. C - Function pointers
+<<<<<<< HEAD
 C
  By: Alexandre Gautier
  Weight: 1
@@ -117,10 +118,18 @@ File: 0-print_name.c
 1. If you spend too much time thinking about a thing, you'll never get it done
 mandatory
 Write a function that executes a function given as a parameter on each element of an array.
+=======
+1. Write a function that prints a name.
+
+Prototype: void print_name(char *name, void (*f)(char *));
+
+2. Write a function that executes a function given as a parameter on each element of an array.
+>>>>>>> 8a116eaf6c7ffa1bc4d5a55841296e2d605de468
 
 Prototype: void array_iterator(int *array, size_t size, void (*action)(int));
 where size is the size of the array
 and action is a pointer to the function you need to use
+<<<<<<< HEAD
 julien@ubuntu:~/0x0e. Function pointers$ cat 1-main.c
 #include <stdio.h>
 #include "function_pointers.h"
@@ -182,6 +191,10 @@ File: 1-array_iterator.c
 2. To hell with circumstances; I create opportunities
 mandatory
 Write a function that searches for an integer.
+=======
+
+3. Write a function that searches for an integer.
+>>>>>>> 8a116eaf6c7ffa1bc4d5a55841296e2d605de468
 
 Prototype: int int_index(int *array, int size, int (*cmp)(int));
 where size is the number of elements in the array array
@@ -189,6 +202,7 @@ cmp is a pointer to the function to be used to compare values
 int_index returns the index of the first element for which the cmp function does not return 0
 If no element matches, return -1
 If size <= 0, return -1
+<<<<<<< HEAD
 julien@ubuntu:~/0x0e. Function pointers$ cat 2-main.c
 #include <stdio.h>
 #include "function_pointers.h"
@@ -260,6 +274,10 @@ File: 2-int_index.c
 3. A goal is not always meant to be reached, it often serves simply as something to aim at
 mandatory
 Write a program that performs simple operations.
+=======
+
+4. Write a program that performs simple operations.
+>>>>>>> 8a116eaf6c7ffa1bc4d5a55841296e2d605de468
 
 You are allowed to use the standard library
 Usage: calc num1 operator num2
@@ -277,6 +295,7 @@ if the operator is none of the above, print Error, followed by a new line, and e
 if the user tries to divide (/ or %) by 0, print Error, followed by a new line, and exit with the status 100
 This task requires that you create four different files.
 
+<<<<<<< HEAD
 3-calc.h
 
 This file should contain all the function prototypes and data structures used by the program. You can use this structure:
@@ -361,6 +380,9 @@ File: 3-main.c, 3-op_functions.c, 3-get_op_func.c, 3-calc.h
 4. Most hackers are young because young people tend to be adaptable. As long as you remain adaptable, you can always be a good hacker
 #advanced
 Write a program that prints the opcodes of its own main function.
+=======
+5. Write a program that prints the opcodes of its own main function.
+>>>>>>> 8a116eaf6c7ffa1bc4d5a55841296e2d605de468
 
 Usage: ./main number_of_bytes
 Output format:
@@ -374,6 +396,7 @@ If the number of argument is not the correct one, print Error, followed by a new
 If the number of bytes is negative, print Error, followed by a new line, and exit with the status 2
 You do not have to compile with any flags
 Note: if you want to translate your opcodes to assembly instructions, you can use, for instance udcli.
+<<<<<<< HEAD
 
 julien@ubuntu:~/0x0e. Function pointers$ gcc -std=gnu89 100-main_opcodes.c -o main
 julien@ubuntu:~/0x0e. Function pointers$ ./main 21
@@ -406,3 +429,5 @@ GitHub repository: alx-low_level_programming
 Directory: 0x0F-function_pointers
 File: 100-main_opcodes.c
    
+=======
+>>>>>>> 8a116eaf6c7ffa1bc4d5a55841296e2d605de468

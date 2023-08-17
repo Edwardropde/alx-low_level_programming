@@ -17,6 +17,10 @@ char *create_array(unsigned int size, char c)
 	str = malloc(sizeof(char) * size);
 	if (size == 0 || str == NULL)
 		return (NULL);
+<<<<<<< HEAD
+=======
+
+>>>>>>> 8a116eaf6c7ffa1bc4d5a55841296e2d605de468
 	for (i = 0; i < size; i++)
 		str[i] = c;
 	return (str);

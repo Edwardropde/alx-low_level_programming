@@ -1,5 +1,6 @@
 #!/bin/bash
 0x09. C - Static libraries
+<<<<<<< HEAD
 C
  By: Julien Barbier
  Weight: 1
@@ -229,3 +230,7 @@ GitHub repository: alx-low_level_programming
 Directory: 0x09-static_libraries
 File: create_static_lib.sh
    
+=======
+a static library libmy.a containing various functions listed
+a script called create_static_lib.sh that creates a static library called liball.a from all the .c files that are in the current directory.
+>>>>>>> 8a116eaf6c7ffa1bc4d5a55841296e2d605de468

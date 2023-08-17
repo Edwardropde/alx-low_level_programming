@@ -1,7 +1,13 @@
 #include <stdlib.h>
+<<<<<<< HEAD
 #include "lists.h"
 #include <string.h>
 #include <stdio.h>
+=======
+#include <string.h>
+#include <stdio.h>
+#include "lists.h"
+>>>>>>> 8a116eaf6c7ffa1bc4d5a55841296e2d605de468
 /**
  * main - check the code
  *

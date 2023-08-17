@@ -15,6 +15,7 @@ int main(int argc, char *argv[])
 
 	if (argc != 4)
 	{
+<<<<<<< HEAD
 		printf("Error\n");
 		exit(98);
 	}
@@ -26,4 +27,21 @@ int main(int argc, char *argv[])
 	}
 	printf("%d\n", oprt(atoi(argv[1]), atoi(argv[3])));
 	return (0);
+=======
+
+		printf("Error\n");
+		exit(98);
+	}
+
+	oprt = get_op_func(argv[2]);
+
+			if (!oprt)
+			{
+				printf("Error\n");
+				exit(99);
+			}
+
+			printf("%d\n", oprt(atoi(argv[1]), atoi(argv[3])));
+			return (0);
+>>>>>>> 8a116eaf6c7ffa1bc4d5a55841296e2d605de468
 }

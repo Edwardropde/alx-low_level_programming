@@ -55,6 +55,10 @@ int op_div(int a, int b)
 		printf("Error\n");
 		exit(100);
 	}
+<<<<<<< HEAD
+=======
+
+>>>>>>> 8a116eaf6c7ffa1bc4d5a55841296e2d605de468
 	return (a / b);
 }
 
@@ -73,5 +77,9 @@ int op_mod(int a, int b)
 		printf("Error\n");
 		exit(100);
 	}
+<<<<<<< HEAD
+=======
+
+>>>>>>> 8a116eaf6c7ffa1bc4d5a55841296e2d605de468
 	return (a % b);
 }

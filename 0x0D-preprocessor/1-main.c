@@ -1,4 +1,8 @@
 #include "1-pi.h"
+<<<<<<< HEAD
+=======
+#include "1-pi.h"
+>>>>>>> 8a116eaf6c7ffa1bc4d5a55841296e2d605de468
 #include <stdio.h>
 /**
  * main - check the code

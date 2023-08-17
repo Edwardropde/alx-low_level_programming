@@ -1,5 +1,6 @@
 #!/bin/bash
 0x10. C - Variadic functions
+<<<<<<< HEAD
 C
  By: Julien Barbier
  Weight: 1
@@ -84,6 +85,14 @@ File: 0-sum_them_all.c
 1. To be is to be the value of a variable
 mandatory
 Write a function that prints numbers, followed by a new line.
+=======
+1. Write a function that returns the sum of all its parameters.
+
+Prototype: int sum_them_all(const unsigned int n, ...);
+If n == 0, return 0
+
+2. Write a function that prints numbers, followed by a new line.
+>>>>>>> 8a116eaf6c7ffa1bc4d5a55841296e2d605de468
 
 Prototype: void print_numbers(const char *separator, const unsigned int n, ...);
 where separator is the string to be printed between numbers
@@ -91,6 +100,7 @@ and n is the number of integers passed to the function
 You are allowed to use printf
 If separator is NULL, don’t print it
 Print a new line at the end of your function
+<<<<<<< HEAD
 julien@ubuntu:~/0x0f. variadic functions$ cat 1-main.c
 #include "variadic_functions.h"
 
@@ -117,6 +127,10 @@ File: 1-print_numbers.c
 2. One woman's constant is another woman's variable
 mandatory
 Write a function that prints strings, followed by a new line.
+=======
+
+3. Write a function that prints strings, followed by a new line.
+>>>>>>> 8a116eaf6c7ffa1bc4d5a55841296e2d605de468
 
 Prototype: void print_strings(const char *separator, const unsigned int n, ...);
 where separator is the string to be printed between the strings
@@ -125,6 +139,7 @@ You are allowed to use printf
 If separator is NULL, don’t print it
 If one of the string is NULL, print (nil) instead
 Print a new line at the end of your function
+<<<<<<< HEAD
 julien@ubuntu:~/0x0f. Variadic functions$ cat 2-main.c
 #include "variadic_functions.h"
 
@@ -151,6 +166,10 @@ File: 2-print_strings.c
 3. To be is a to be the value of a variable
 mandatory
 Write a function that prints anything.
+=======
+
+4. Write a function that prints anything.
+>>>>>>> 8a116eaf6c7ffa1bc4d5a55841296e2d605de468
 
 Prototype: void print_all(const char * const format, ...);
 where format is a list of types of arguments passed to the function
@@ -167,6 +186,7 @@ You can use a maximum of
 You can declare a maximum of 9 variables
 You are allowed to use printf
 Print a new line at the end of your function
+<<<<<<< HEAD
 julien@ubuntu:~/0x0f. Variadic functions$ cat 3-main.c
 #include "variadic_functions.h"
 
@@ -190,3 +210,5 @@ GitHub repository: alx-low_level_programming
 Directory: 0x10-variadic_functions
 File: 3-print_all.c
    
+=======
+>>>>>>> 8a116eaf6c7ffa1bc4d5a55841296e2d605de468

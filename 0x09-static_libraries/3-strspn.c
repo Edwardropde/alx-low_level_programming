@@ -24,7 +24,11 @@ unsigned int _strspn(char *s, char *accept)
 			else if (accept[r + 1] == '\0')
 				return (n);
 		}
+<<<<<<< HEAD
 		s++;
+=======
+	s++;
+>>>>>>> 8a116eaf6c7ffa1bc4d5a55841296e2d605de468
 	}
 	return (n);
 }

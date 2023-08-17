@@ -32,7 +32,11 @@ void print_grid(int **grid, int width, int height)
 /**
  * main - check the code for ALX School students.
  *
+<<<<<<< HEAD
  * Return: Always 0
+=======
+ * Return: Always 0.
+>>>>>>> 8a116eaf6c7ffa1bc4d5a55841296e2d605de468
  */
 
 int main(void)

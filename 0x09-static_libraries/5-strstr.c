@@ -13,6 +13,10 @@ char *_strstr(char *haystack, char *needle)
 	{
 		char *l = haystack;
 		char *p = needle;
+<<<<<<< HEAD
+=======
+
+>>>>>>> 8a116eaf6c7ffa1bc4d5a55841296e2d605de468
 		while (*l == *p && *p != '\0')
 		{
 			l++;

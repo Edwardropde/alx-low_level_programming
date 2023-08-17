@@ -13,7 +13,11 @@ void print_name_as_is(char *name)
 }
 
 /**
+<<<<<<< HEAD
  * print_name_uppercase - print a name in uppercase
+=======
+ * print_name_uppercase - print a name in uppercas
+>>>>>>> 8a116eaf6c7ffa1bc4d5a55841296e2d605de468
  * @name: name of the person
  * Return: Nothing.
  */
@@ -35,6 +39,10 @@ void print_name_uppercase(char *name)
 		{
 			putchar(name[i]);
 		}
+<<<<<<< HEAD
+=======
+		i++;
+>>>>>>> 8a116eaf6c7ffa1bc4d5a55841296e2d605de468
 	}
 }
 

@@ -13,6 +13,10 @@ int count_word(char *s)
 
 	flag = 0;
 	w = 0;
+<<<<<<< HEAD
+=======
+
+>>>>>>> 8a116eaf6c7ffa1bc4d5a55841296e2d605de468
 	for (c = 0; s[c] != '\0'; c++)
 	{
 		if (s[c] == ' ')
@@ -23,7 +27,12 @@ int count_word(char *s)
 			w++;
 		}
 	}
+<<<<<<< HEAD
 	return (w);
+=======
+
+		return (w);
+>>>>>>> 8a116eaf6c7ffa1bc4d5a55841296e2d605de468
 }
 
 /**
@@ -44,9 +53,17 @@ char **strtow(char *str)
 	words = count_word(str);
 	if (words == 0)
 		return (NULL);
+<<<<<<< HEAD
 	matrix = (char **) malloc(sizeof(char *) * (words + 1));
 	if (matrix == NULL)
 		return (NULL);
+=======
+
+	matrix = (char **) malloc(sizeof(char *) * (words + 1));
+	if (matrix == NULL)
+		return (NULL);
+
+>>>>>>> 8a116eaf6c7ffa1bc4d5a55841296e2d605de468
 	for (i = 0; i <= len; i++)
 	{
 		if (str[i] == ' ' || str[i] == '\0')
@@ -68,6 +85,12 @@ char **strtow(char *str)
 		else if (c++ == 0)
 			start = i;
 	}
+<<<<<<< HEAD
 	matrix[k] = NULL;
+=======
+
+	matrix[k] = NULL;
+
+>>>>>>> 8a116eaf6c7ffa1bc4d5a55841296e2d605de468
 	return (matrix);
 }

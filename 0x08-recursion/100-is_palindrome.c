@@ -42,7 +42,10 @@ int comparator(char *s, int n1, int n2)
 
 int is_palindrome(char *s)
 {
+<<<<<<< HEAD
 
+=======
+>>>>>>> 8a116eaf6c7ffa1bc4d5a55841296e2d605de468
 	if (*s == '\0')
 		return (1);
 	return (comparator(s, 0, _strlen_recursion(s) - 1));

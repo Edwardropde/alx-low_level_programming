@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 0x08. C - Recursion
 C
 Recursion
@@ -445,3 +446,7 @@ Repo:
 GitHub repository: alx-low_level_programming
 Directory: 0x08-recursion
 File: 101-wildcmp.c
+=======
+#!/bin/bash
+0x08. C - Recursion
+>>>>>>> 8a116eaf6c7ffa1bc4d5a55841296e2d605de468

@@ -22,9 +22,17 @@ int int_index(int *array, int size, int (*cmp)(int))
 			{
 				if (cmp(array[i]))
 					return (i);
+<<<<<<< HEAD
+=======
+
+>>>>>>> 8a116eaf6c7ffa1bc4d5a55841296e2d605de468
 				i++;
 			}
 		}
 	}
+<<<<<<< HEAD
+=======
+
+>>>>>>> 8a116eaf6c7ffa1bc4d5a55841296e2d605de468
 	return (-1);
 }

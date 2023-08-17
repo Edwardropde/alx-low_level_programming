@@ -20,10 +20,18 @@ int _atoi(char *s)
 
 	while (s[len] != '\0')
 		len++;
+<<<<<<< HEAD
+=======
+
+>>>>>>> 8a116eaf6c7ffa1bc4d5a55841296e2d605de468
 	while (i < len && f == 0)
 	{
 		if (s[i] == '-')
 			++d;
+<<<<<<< HEAD
+=======
+
+>>>>>>> 8a116eaf6c7ffa1bc4d5a55841296e2d605de468
 		if (s[i] >= '0' && s[i] <= '9')
 		{
 			digit = s[i] - '0';
@@ -39,6 +47,10 @@ int _atoi(char *s)
 	}
 	if (f == 0)
 		return (0);
+<<<<<<< HEAD
+=======
+
+>>>>>>> 8a116eaf6c7ffa1bc4d5a55841296e2d605de468
 	return (n);
 }
 
@@ -46,7 +58,11 @@ int _atoi(char *s)
  * main - multiplies two numbers
  * @argc: number of arguments
  * @argv: array of arguments
+<<<<<<< HEAD
  * Return: 0 if successful 1 on error.
+=======
+ * Return: 0 (Success), 1 (Error)
+>>>>>>> 8a116eaf6c7ffa1bc4d5a55841296e2d605de468
  */
 
 int main(int argc, char *argv[])
@@ -59,9 +75,19 @@ int main(int argc, char *argv[])
 		printf("Error\n");
 		return (1);
 	}
+<<<<<<< HEAD
 	num1 = _atoi(argv[1]);
 	num2 = _atoi(argv[2]);
 	result = num1 * num2;
 	printf("%d\n", result);
+=======
+
+	num1 = _atoi(argv[1]);
+	num2 = _atoi(argv[2]);
+	result = num1 * num2;
+
+	printf("%d\n", result);
+
+>>>>>>> 8a116eaf6c7ffa1bc4d5a55841296e2d605de468
 	return (0);
 }

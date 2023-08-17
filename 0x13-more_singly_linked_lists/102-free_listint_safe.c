@@ -20,8 +20,15 @@ size_t looped_listint_count(listint_t *head)
 
 	if (head == NULL || head->next == NULL)
 		return (0);
+<<<<<<< HEAD
 	tortoise = head->next;
 	hare = (head->next)->next;
+=======
+
+	tortoise = head->next;
+	hare = (head->next)->next;
+
+>>>>>>> 8a116eaf6c7ffa1bc4d5a55841296e2d605de468
 	for (; hare != NULL; )
 	{
 		if (tortoise == hare)
@@ -71,6 +78,10 @@ size_t free_listint_safe(listint_t **h)
 			*h = temp;
 		}
 	}
+<<<<<<< HEAD
+=======
+
+>>>>>>> 8a116eaf6c7ffa1bc4d5a55841296e2d605de468
 	else
 	{
 		for (index = 0; index < nodes; index++)

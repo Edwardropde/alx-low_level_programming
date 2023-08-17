@@ -13,7 +13,13 @@ void _print_rev_recursion(char *s)
 		return;
 	}
 	s++;
+<<<<<<< HEAD
 	_print_rev_recursion(s);
 	s--;
 	_putchar(*s);
+=======
+		_print_rev_recursion(s);
+		s--;
+		_putchar(*s);
+>>>>>>> 8a116eaf6c7ffa1bc4d5a55841296e2d605de468
 }

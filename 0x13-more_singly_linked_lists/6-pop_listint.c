@@ -17,9 +17,19 @@ int pop_listint(listint_t **head)
 
 	if (*head == NULL)
 		return (0);
+<<<<<<< HEAD
 	next_node = *head;
 	data = (*head)->n;
 	*head = (*head)->next;
 	free(next_node);
+=======
+
+	next_node = *head;
+	data = (*head)->n;
+	*head = (*head)->next;
+
+	free(next_node);
+
+>>>>>>> 8a116eaf6c7ffa1bc4d5a55841296e2d605de468
 	return (data);
 }

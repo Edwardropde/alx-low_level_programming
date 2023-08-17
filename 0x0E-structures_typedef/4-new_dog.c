@@ -12,10 +12,18 @@ int _strlen(char *str)
 	int i;
 
 	i = 0;
+<<<<<<< HEAD
+=======
+
+>>>>>>> 8a116eaf6c7ffa1bc4d5a55841296e2d605de468
 	while (str[i] != '\0')
 	{
 		i++;
 	}
+<<<<<<< HEAD
+=======
+
+>>>>>>> 8a116eaf6c7ffa1bc4d5a55841296e2d605de468
 	return (i);
 }
 
@@ -33,15 +41,27 @@ char *_strcopy(char *dest, char *src)
 	int len, i;
 
 	len = 0;
+<<<<<<< HEAD
+=======
+
+>>>>>>> 8a116eaf6c7ffa1bc4d5a55841296e2d605de468
 	while (src[len] != '\0')
 	{
 		len++;
 	}
+<<<<<<< HEAD
+=======
+
+>>>>>>> 8a116eaf6c7ffa1bc4d5a55841296e2d605de468
 	for (i = 0; i < len; i++)
 	{
 		dest[i] = src[i];
 	}
 	dest[i] = '\0';
+<<<<<<< HEAD
+=======
+
+>>>>>>> 8a116eaf6c7ffa1bc4d5a55841296e2d605de468
 	return (dest);
 }
 
@@ -61,15 +81,27 @@ dog_t *new_dog(char *name, float age, char *owner)
 
 	len1 = _strlen(name);
 	len2 = _strlen(owner);
+<<<<<<< HEAD
 	dog = malloc(sizeof(dog_t));
 	if (dog == NULL)
 		return (NULL);
+=======
+
+	dog = malloc(sizeof(dog_t));
+	if (dog == NULL)
+		return (NULL);
+
+>>>>>>> 8a116eaf6c7ffa1bc4d5a55841296e2d605de468
 	dog->name = malloc(sizeof(char) * (len1 + 1));
 	if (dog->name == NULL)
 	{
 		free(dog);
 		return (NULL);
 	}
+<<<<<<< HEAD
+=======
+
+>>>>>>> 8a116eaf6c7ffa1bc4d5a55841296e2d605de468
 	dog->owner = malloc(sizeof(char) * (len2 + 1));
 	if (dog->owner == NULL)
 	{
@@ -80,5 +112,9 @@ dog_t *new_dog(char *name, float age, char *owner)
 	_strcopy(dog->name, name);
 	_strcopy(dog->owner, owner);
 	dog->age = age;
+<<<<<<< HEAD
+=======
+
+>>>>>>> 8a116eaf6c7ffa1bc4d5a55841296e2d605de468
 	return (dog);
 }

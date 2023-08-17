@@ -1,6 +1,11 @@
 #include "main.h"
+<<<<<<< HEAD
 #include <stdlib.h>
 #include <stdio.h>
+=======
+#include <stdio.h>
+#include <stdlib.h>
+>>>>>>> 8a116eaf6c7ffa1bc4d5a55841296e2d605de468
 #include <string.h>
 /**
  * simple_print_buffer - prints buffer in hexa
